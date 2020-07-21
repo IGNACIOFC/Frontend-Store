@@ -1,3 +1,54 @@
-.cuerpo {
-    background: pink;
+* {
+    background: #DA69DB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: WHITE;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.producto {
+    margin: 15px;
+}
+
+.producto img {
+    max-width: 300px;
+    border: #840BC4 solid 10px;
 }
